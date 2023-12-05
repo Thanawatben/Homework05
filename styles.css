@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./pic/galaxy.jpeg);
+    background-size: cover;
+    max-width: 1200px;
+    margin: auto;
+    background-color: snow;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.under{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.under h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.b1{
+    background-color: white;
+    height: 20px;
+    width: 500px;
+}
+.b2{
+    background-color: coral;
+    height: 20px;
+    width: 70%;
+}
+.percent{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
+.icon{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
